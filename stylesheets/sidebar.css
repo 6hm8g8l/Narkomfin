@@ -1,0 +1,39 @@
+nav {
+  background: #F9F9F9;
+  width: 300px;
+  position: fixed;
+  top: 50px;
+  left: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 100vh;
+  display: block;
+  opacity: .1;
+  transition: all .5s ease;
+}
+nav:hover {
+  opacity: 1;
+  transition: all .1s ease;
+}
+
+nav p{
+  margin-left: -10px;
+  font-weight: bold;
+  font-size: 14px!important;
+}
+nav a{
+  text-decoration: none;
+  font-size: 12px!important;
+}
+nav ul{
+  margin-left: -10px;
+  list-style-type: none;
+  width: 100%;
+}
+nav li{
+  margin: 0px;
+  margin-left: -10px;
+  line-height: 20px;
+}
